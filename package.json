@@ -1,0 +1,25 @@
+{
+  "name": "route53-ddns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanhinish/route53-ddns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanhinish/route53-ddns/issues"
+  },
+  "homepage": "https://github.com/nathanhinish/route53-ddns#readme",
+  "dependencies": {
+    "aws-sdk": "^2.500.0",
+    "fs-extra": "^8.1.0",
+    "public-ip": "^3.1.0"
+  }
+}

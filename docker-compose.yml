@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  app:
+    build: .
+    image: docker.devops.n8d.io/nathanhinish/route53-ddns
+    volumes:
+      - ./test.json:/opt/data/updates.json
+    environment: 
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - UPDATE_FILE=${UPDATE_FILE:-/opt/data/updates.json}
+      - UPDATE_INTERVAL=${UPDATE_INTERVAL:-43200}
