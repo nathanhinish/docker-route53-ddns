@@ -2,7 +2,7 @@ version: '3.7'
 services:
   app:
     build: .
-    image: docker.devops.n8d.io/nathanhinish/route53-ddns
+    image: nathanhinish/route53-ddns
     volumes:
       - ./test.json:/opt/data/updates.json
     environment: 
