@@ -1,9 +1,9 @@
 # route53-ddns
 
 ## Example Config
-HostedZoneId = AWS zone ID
-Common = These keys get applied to each record in the object
-Records = The domain name to update
+- HostedZoneId = AWS zone ID
+- Common = These keys get applied to each record in the object
+- Records = The domain name to update
 ```
 [{
     "HostedZoneId": "FROM AWS",
