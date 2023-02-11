@@ -20,6 +20,6 @@
   "dependencies": {
     "aws-sdk": "^2.500.0",
     "fs-extra": "^8.1.0",
-    "public-ip": "^3.1.0"
+    "public-ip": "^6.0.1"
   }
 }
